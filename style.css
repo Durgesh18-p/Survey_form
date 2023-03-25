@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Montserrat&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+:root {
+    --primary-color:#18181b;
+    --secondary-color:#f8c2853a;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* background-color: var(--primary-color); */
+    background-image: url(/image/dark.jpg);
+    color: white;
+    
+}
+
+.form {
+    background-color: var(--secondary-color);
+    margin: 0rem 25rem;
+    border: 2px solid silver;
+}
+
+.container {
+    text-align: center;
+}
+
+#name {
+    border-radius: 0.3rem;
+}
+
+.button {
+    background-color: silver;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.textarea {
+    border-top-left-radius: 0.8rem;
+    padding: o.5rem;
+}
+
+.secondary-container {
+    border: 2px solid skyblue;
+    margin: 0rem 5rem;
+}
+ 
+.gender-div {
+    border: 2px solid skyblue;
+    margin: 0.3rem 5rem;
+    padding-bottom: 0.8rem;
+}
+
+p {
+    font-weight: 500;
+}
+
+.choose-cars{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.language {
+    font-weight: 500;
+}
+
+.cars{
+    font-weight: 500;
+}
+

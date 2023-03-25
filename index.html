@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="container">     
+            <h1>Survey Form</h1>   
+            <div class="secondary-container"> 
+                <p><label class="label" for="name">name:</label><br>
+                <input type="text" id="name">
+                </p>
+            </div>
+            
+            <div class="secondary-container">
+                <p><label class="label" for="email">Email:</label><br>
+                <input type="email" name="" id="name"></p>
+            </div>
+           
+            <div class="secondary-container">
+                <p><label class="label" for="number">Mob.No:</label><br>
+                <input type="number" name="" id="name"></p>
+            </div>
+           
+            <div class="gender-div">
+                <p>Gender</p>
+                <label for="male">Male</label>
+                <input type="radio" name="name" id="male" value="Male">
+                
+                <label for="female">Female</label>
+                <input type="radio" name="name" id="male" value="Female">
+                
+                <label for="other">Other</label>
+                <input type="radio" name="name" id="male" value="Other">
+            </div>
+            
+            <div class="language gender-div"> 
+                <p>Languages</p>
+                Marathi:<input type="checkbox" id="checkbox">
+                Hindi:<input type="checkbox" id="checkbox">
+                English:<input type="checkbox" id="checkbox">
+            </div>
+            <br>
+            <div class="choose-cars">
+                <label class="cars" for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                </select>
+            </div>
+            
+            <div class="textarea-container gender-div">
+                <p>Tell us about yourself:</p> 
+                <textarea class="textarea" name="" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            
+            <div>
+                <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
